@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 
-DATA = "data/students.csv"
+DATA = "students.csv"
 MODEL_PATH = "model/student_support_model.joblib"
 OUTPUT = "outputs/student_predictions.csv"
 
